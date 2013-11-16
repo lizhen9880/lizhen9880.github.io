@@ -29,6 +29,35 @@
       <div class="inner clearfix">
         <section id="main-content">
  <h3>
+<a name="C中.h头文件的写法" class="anchor" href="#C中.h头文件的写法"><span class="octicon octicon-link"></span></a>C中.h头文件的写法</h3>
+
+<p>
+Michael Barr建议：<br />
+1. 系统中为每个功能模块创建一个.h头文件。<br />
+   一个功能模块实现系统的一个方面功能，它可能由多个.c和.asm文件来实现，为它创建一个.h头文件。<br />
+2.把一个模块的公共接口的函数原型放到.h文件中。这是public函数。<br />
+<br />
+3.不要在.h头文件中放私有函数或私有宏, 把它们放到.c文件中，并用static修饰函数。<br />
+<br />
+4.在.h头文件中，不要有执行的代码和变量声明，除非是inline函数。<br />
+<br />
+5.在.h头文件中，不要暴露变量，在.c中声明变量，如果外部需要使用这个变量，在.h中使用extern关键字来暴露变量。<br />
+<br />
+6.在.h头文件中，不要暴露任何特定模块相关的数据结构的内部格式。<br />
+   在.h头中，不要声明具体数据结构，如struct {...} foo，而是把它放到.c中，如果模块中需要这个结构输入或输出，在头中定义一个类型typedef struct foo module_type，这样客户模块可以创建它的实例。客户模块不必知道具体的foo结构的内部细节。<br />
+<br />
+  DON’T expose the internal format of any module-specific data structure passed to or returned from one or more of the module’s interface functions.That is to say there should be no “struct { … } foo;” code in any header file.  If you do have a type you need to pass in and out of your module, so client modules can create instances of it, you can simply “typedef struct foo moduleb_type” in the header file.  Client modules should never know, and this way cannot know, the internal format of the struct.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+参考：<br />
+【1】http://embeddedgurus.com/barr-code/2010/11/what-belongs-in-a-c-h-header-file/</p>
+<br />
+<br />
+ <h3>
 <a name="我的第一篇博客" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
 <p><font size="5" face="arial" color="red">试试效果咋样</font></p>
