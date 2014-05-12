@@ -19,8 +19,8 @@
   <body>
     <header>
       <div class="inner">
-        <h1>Lee的仓库</h1>
-        <h2>My Blogs</h2>
+        <h1>JamesLee的仓库</h1>
+        <h2>现在的努力是为了实现小时候吹过的牛逼</h2>
         <a href="https://github.com/MoonwalkerLee" class="button"><small>Follow me on</small>GitHub</a>
       </div>
     </header>
@@ -28,6 +28,29 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
+         <h3>
+	<a name="STM32发生HardFault_Handler错误的查找方法" class="anchor" href="STM32发生HardFault_Handler错误的查找方法"><span class="octicon octicon-link"></span></a>STM32发生HardFault_Handler错误的查找方法</h3>
+	
+	
+	<p>
+	我遇到的HardFault_Handler错误的原因最最多的原因是数组越界以及指针指飞，<br />
+	其实这两个是差不多的，都是访问了不该访问的地方导致了错误，就像一个路痴，<br />
+	漫无目的的走到了一个陌生的地方……然后就迷路了……然后就木有然后了……<br />
+	（貌似是第一次写原创，我该如何装成经常写的样子……）<br />
+	以前查找这种错误时比较盲目，就是在程序中缕着流程一步步的查找，逐个屏蔽进<br />
+	行排除，在程序隔一段加个while(1)，以及通过串口发出错误状态日志等……这些方<br />
+	法都效率低下，不易查找。相比之下，查看堆栈的方法更加实用，效率也高。<br />
+	在HardFault_Handler中的while(1)设置断点，然后运行，给它触发HardFault_Handler<br />
+	的条件，然后到断点处之后，查看watch窗口中的Call Stack+Local，也就是堆栈以及局<br />
+	部变量，程序执行到哪一句发生的错误，以及当时各个压栈的函数的各个局部变量的值一<br />
+	目了然，这里记录了死者临死前的五分钟到底对自己做了什么傻事……如下图，就是对一个<br />
+	地址为NULL的空指针 p 进行解引用操作造成的HardFault_Handler错误<br />
+	
+		
+	</p>
+	<br />
+	<br />
+	 <h3>
  <h3>
 <a name="C中.h头文件的写法" class="anchor" href="#C中.h头文件的写法"><span class="octicon octicon-link"></span></a>C中.h头文件的写法</h3>
 
