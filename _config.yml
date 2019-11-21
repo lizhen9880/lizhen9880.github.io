@@ -1,0 +1,8 @@
+title: Moonwalkerlee.github.com
+description: My Blogs
+google_analytics: lizhen9880@gmail.com
+show_downloads: true
+theme: jekyll-theme-dinky
+
+gems:
+  - jekyll-mentions
