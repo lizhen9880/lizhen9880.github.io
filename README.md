@@ -1,8 +1,6 @@
-AD_SampleDataHandling
+My website
 =====================
 
-Data sample and Data handling
+publish my blog
 
--average filtering
--median filtering
--and so on.
+
