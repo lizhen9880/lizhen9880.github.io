@@ -1,22 +1,42 @@
-### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:
+## 众亚科技有限公司邀您共叙华章
 
-```
-$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-```
+### 嵌入式软件工程师（1名）
 
-If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.
+ - 岗位职责
 
-### Designer Templates
-We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.
+   - ARM Cortex-M等MCU平台的驱动程开发；
+   - 仪器/模块应用程序开发
+   - 通用化软件组件的开发及维护；
+   - 编写相应的技术开发文档。
+ - 任职要求
+   - 电子、电气、计算机、通信、自动化等专业；
+   - C语言基础扎实，熟悉计算机体系结构；
+   - 熟悉一种或几种嵌入式CPU软硬件平台，例如STM32，PIC，LPC/i.MX RT等；
+   - 至少了解一种操作系统（linux、FreeRTOS、RT-Thread 或其他操作系统）；
+   - 有强烈的学习能力和学习新知识的欲望；
+   - 适应创业型公司的工作氛围，较强的自我管理能力与团队合作精神。
 
-### Rather Drive Stick?
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+### Web前端开发工程师（1名）
 
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+ - 岗位职责
+    - 负责web应用开发
+    - 参与方案讨论，产品需求分析设计和编码实现。
+    - 决开发过程中的技术问题。
+ - 任职要求
+   - 熟练使用HTML、CSS、js、Ajax等；
+   - 熟练使用Git、Postman、npm等工具
+   - 了解一种或几种前端框架（React、Angular、Vue）者优先； 
 
-### Support or Contact
-Having trouble with Pages? Check out the documentation at http://help.github.com/pages or contact support@github.com and we’ll help you sort it out.
+### Web前端开发工程师（1名）
+
+ - 岗位职责
+    - 负责web后台应用开发
+    - 参与方案讨论，产品需求分析设计和编码实现。
+    - 决开发过程中的技术问题。
+ - 任职要求
+   - 熟悉java、python等至少一种后台编程语言；
+   - 熟悉Http,MQTT等网络协议；
+   - 熟练使用Git、Postman、npm等工具 
+   - 熟练使用一种或几种数据库操作（mysql、MongoDB等）；
+   - 熟悉Http,MQTT等网络协议；
+   - 了解一种或几种后台框架（springboot、tornado等）者优先；
