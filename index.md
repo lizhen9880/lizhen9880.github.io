@@ -46,4 +46,7 @@
    - 熟练使用一种或几种数据库操作（mysql、MongoDB等）；
    - 熟悉Http,MQTT等网络协议；
    - 了解一种或几种后台框架（springboot、tornado等）者优先；
+   
+---
+
 ### 简历投至 [lizhen9880@126.com](lizhen9880@126.com)
